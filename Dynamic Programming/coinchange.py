@@ -17,7 +17,7 @@ def change(n,arr,memo,nu,logs):
     memo[str(n)+" "+str(nu)]=sum(pl)                         
     return memo[str(n)+" "+str(nu)] 
  
-t=int(input())         #number of testcases  
+t=int(input())       #number of testcases  
 while(t>0):
     nu=set({})
     logs=[]
